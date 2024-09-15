@@ -1,0 +1,102 @@
+
+body {
+    background-color: rgb(158, 186, 238);
+    font-family: helvetica, Arial, sans-serif;
+    margin: 0%;
+    font-size: 1vw;
+}
+
+p {
+    font-size: 0.9vw;
+}
+
+#logo {
+    margin: 0%;
+    padding: 8px;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 4vw;
+}
+
+ul {
+    margin: 0%;
+}
+
+body > header {
+    background-color: orange;
+    /* THe body > header means the direct child of the body tag, which targets a specific area */
+    color: white;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 5px;
+    margin: 5px;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10%;
+}
+
+body > main article {
+    width: 80%;
+    margin: auto;
+    /* auto assesses the margin to center everthing */
+    /* if there is no > that means it's not a direct desendent and can apply to all articles in main */
+}
+ /* can use class selector: class="name" and select it in css with: .name */
+ /* or use id: give any tag an id id="name" and select it in css with #name */
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+    width: 70%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer {
+    background-color: orange;
+    display: flex;
+
+}
+
+img {
+    border-radius: 10%;
+    /* rounds things around the corners or make it into a full circle with 50% */
+}
+
+#footer-ul {
+    display: flex ;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
